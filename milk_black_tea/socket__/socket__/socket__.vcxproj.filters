@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\Gui">
+      <UniqueIdentifier>{dbc1b284-5ec8-4e9c-b4b4-c1f5f3cbe86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\GUI">
+      <UniqueIdentifier>{0463a6ca-50ba-431c-b99f-7b74fc2df7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Utility">
+      <UniqueIdentifier>{a49f9e2e-1f87-4ba4-be50-d990a8a3d1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Utility">
+      <UniqueIdentifier>{782e44a6-787a-4556-b41e-3faa40ed9712}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle.cpp">
+      <Filter>原始程式檔\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>原始程式檔\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="G_Setup.cpp">
+      <Filter>原始程式檔\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint_File.cpp">
+      <Filter>原始程式檔\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>原始程式檔\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cpp">
+      <Filter>原始程式檔\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>原始程式檔\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn_Table.cpp">
+      <Filter>原始程式檔\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="G_Setup.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint_File.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>標頭檔\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>標頭檔\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Turn_Table.h">
+      <Filter>標頭檔\Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Angle.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G_Setup.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paint_File.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
